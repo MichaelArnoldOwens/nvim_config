@@ -1,3 +1,5 @@
+vim.g.mapleader = " "
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 require("pandar")
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
